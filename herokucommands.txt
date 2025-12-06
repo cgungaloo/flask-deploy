@@ -1,0 +1,3 @@
+heroku addons:create heroku-postgresql:essential-0 -a flask-deploy
+heroku stack:set container     
+git push heroku main   
